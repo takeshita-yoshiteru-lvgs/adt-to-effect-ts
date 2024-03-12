@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "effect": "^2.3.7",
-    "fp-ts": "^2.16.2"
+    "fp-ts": "^2.16.2",
+    "tsyringe": "^4.8.0"
   }
 }
