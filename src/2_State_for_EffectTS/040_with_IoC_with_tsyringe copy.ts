@@ -41,7 +41,7 @@ export class AutoACController {
       return false;
     }
 
-    const currentTime = new Date();
+    const currentTime = this.clock.getNow();
     if (
       !(
         currentTime.getHours() >= wakeUpHour - 1 &&
