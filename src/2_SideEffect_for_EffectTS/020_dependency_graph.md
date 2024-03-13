@@ -17,9 +17,9 @@ classDiagram
   RemoteController: +getTemperature()
 
 
-AutoACController --> RemoteController: use
-AutoACController --> DBConnection: use
-AutoACController --> Date: use
+AutoACController *-- RemoteController
+AutoACController *-- DBConnection
+AutoACController *-- Date
 
 
 ```
